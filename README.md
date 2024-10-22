@@ -75,9 +75,26 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode.
 - HEX `#0969DA`
 - RGB  `rgb(9, 105, 218)`
 - HSL `hsl(212, 92%, 45%)`
+- The visualization of the color is only supported in issues, pull requests, and discussions.
 
 ### Links
-You can create an inline link by wrapping link text in brackets [ ], and then wrapping the URL in parentheses ( ).
-This site was built using [GitHub Pages](https://pages.github.com/).
+- You can create an inline link by wrapping link text in brackets [ ], and then wrapping the URL in parentheses ( ).
+- This site was built using [GitHub Pages](https://pages.github.com/).
+
+
+## This'll  be a _Helpful_ Section About the Greek Letter Θ!
+A heading containing characters not allowed in fragments, UTF-8 characters, two consecutive spaces between the first and second words, and formatting.
+
+### SECTION Creation or adding anchor tag
+Link to the helpful section: [Link Text](#thisll--be-a-helpful-section-about-the-greek-letter-Θ).
+- all should be lowercase.
+- `-` must be there instead of whitespaces.
+
+### Relative Links -> path/url to file/img/folder present in rootFolder/currentcolder/perviousfolder
+- A relative link is a link that is relative to the current file. For example, if you have a README file in root of your repository, and you have another file in docs/CONTRIBUTING.md, the relative link to CONTRIBUTING.md in your README might look like this:
+- [Contribution guidelines for this project](docs/CONTRIBUTING.md)
+- GitHub will automatically transform your relative link or image path based on whatever branch you're currently on, so that the link or path always works. The path of the link will be relative to the current file. Links starting with` / `will be relative to the repository root. You can use all relative link operands, such as `./ `and `../`.
+
+
 
 - Learning about the styling README file
