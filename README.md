@@ -70,4 +70,14 @@ puts markdown.to_html
 </html>
 ```
 
+### Supported Color Models
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
+- HEX `#0969DA`
+- RGB  `rgb(9, 105, 218)`
+- HSL `hsl(212, 92%, 45%)`
+
+### Links
+You can create an inline link by wrapping link text in brackets [ ], and then wrapping the URL in parentheses ( ).
+This site was built using [GitHub Pages](https://pages.github.com/).
+
 - Learning about the styling README file
