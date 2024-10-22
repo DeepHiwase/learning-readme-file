@@ -95,6 +95,32 @@ Link to the helpful section: [Link Text](#thisll--be-a-helpful-section-about-the
 - [Contribution guidelines for this project](docs/CONTRIBUTING.md)
 - GitHub will automatically transform your relative link or image path based on whatever branch you're currently on, so that the link or path always works. The path of the link will be relative to the current file. Links starting with` / `will be relative to the repository root. You can use all relative link operands, such as `./ `and `../`.
 
+### Images
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+- When you want to display an image that is in your repository, use relative links instead of absolute links.
+- In a `.md` file on the same branch	-> `/assets/images/electrocat.png`.
+
+### List
+> unordered list by preceding one or more lines of text with -, *, or +.
+- George Washington
+* John Adams
++ Thomas Jefferson
+
+> To order your list, precede each line with a number.
+1. James Madison
+2. James Monroe
+3. John Quincy Adams
+
+> Nested List
+100. First list item
+     - First nested list item
+> Task List -> `- []` and to mark complete `- [x]`
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
+> If a task list item description begins with a parenthesis, you'll need to escape it with \:
+- [ ] \(Optional) Open a followup issue
 
 
 - Learning about the styling README file
