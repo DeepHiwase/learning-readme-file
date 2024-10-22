@@ -1,2 +1,2 @@
 ## README FILE
--Learning about the styling README file
+- Learning about the styling README file
