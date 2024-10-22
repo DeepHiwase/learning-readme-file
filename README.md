@@ -122,5 +122,24 @@ Link to the helpful section: [Link Text](#thisll--be-a-helpful-section-about-the
 > If a task list item description begins with a parenthesis, you'll need to escape it with \:
 - [ ] \(Optional) Open a followup issue
 
+### Emoji -> `:EMOJICODE:`
+- :kiss:
+
+### Alerts -> like example tip, note, caution, etc.
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
 
 - Learning about the styling README file
